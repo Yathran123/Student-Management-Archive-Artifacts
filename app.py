@@ -1,7 +1,6 @@
-print("Student Management Project 2")
+with open("report.txt", "w") as f:
+    f.write("Application Report\n")
+    f.write("Total Users: 120\n")
+    f.write("Active Sessions: 45\n")
 
-with open("report.txt", "w") as file:
-    file.write("Student Management Build Report\n")
-    file.write("Build completed successfully\n")
-
-print("report.txt created successfully")
+print("Report generated.")
